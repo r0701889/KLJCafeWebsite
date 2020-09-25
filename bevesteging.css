@@ -1,0 +1,59 @@
+html { 
+  background: url(./fotos/lang.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.center {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+}
+
+.groenebg{
+	background-color: rgba(202, 217, 192, 0.7);
+	padding: 5px 0 5px 0;
+	 border-radius: 17px;
+
+}
+.fotoklj{
+	padding-top: 60%;
+	width: 50%;
+	height: auto;
+}
+.font{
+	font-size:11px;
+	margin-bottom: 4px;
+}
+
+
+.marginbot{
+	margin-bottom: 20px;
+}
+
+progress {
+  background: crimson;
+}
+
+progress {
+  color: lightblue;
+}
+
+progress::-webkit-progress-value {
+  background: lightblue;
+}
+
+progress::-moz-progress-bar {
+  background: lightcolor;
+}
+
+progress::-webkit-progress-value {
+  background: #7fa367;
+}
+
+progress::-webkit-progress-bar {
+  background: white;
+}
