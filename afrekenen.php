@@ -196,15 +196,9 @@ if(isset($_POST['button1'])) {
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = '587';
     $mail->isHTML();
-	/*
-    $mail->Username = '4beachbar2980@gmail.com';
-	*/
-    $mail->Username = '2beachbar2980@gmail.com';
-	/*
-    $mail->Username = 'beachbar2980@gmail.com';
-	*/
-    $mail->Password = 'kljzoersel2980';
-    $mail->AddAddress('3beachbar2980@gmail.com');
+    $mail->Username = 'Hier moet je je email om te versturen ingeven';
+    $mail->Password = 'Hier moet je je wachtwoord van het zendende email ingeven';
+    $mail->AddAddress('Hier moet je je email om te ontvangen ingeven');
     $mail->Subject = $tnummer1;
     $mail->Body = $mailbody;
 
